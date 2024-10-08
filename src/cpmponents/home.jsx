@@ -76,7 +76,7 @@ export const Home = () => {
 };
 =======
 import { useState, useEffect } from "react";
-import { imageList, productData  } from './data'; // Ensure correct imports
+import { imageList, productData  } from './data';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import C_images from '/Image_Folder/C_images.jpg';
