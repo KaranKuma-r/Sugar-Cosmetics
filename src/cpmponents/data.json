@@ -1,0 +1,123 @@
+{
+  "productData": [
+    {
+      "image": "/Image_Folder/lip1.jpg",
+      "name": "Lipstick Shade 1",
+      "price": "$10"
+    },
+    {
+      "image": "/Image_Folder/lip2.jpg",
+      "name": "Lipstick Shade 2",
+      "price": "$12"
+    },
+    {
+      "image": "/Image_Folder/lip3.jpg",
+      "name": "Lipstick Shade 3",
+      "price": "$15"
+    },
+    {
+      "image": "/Image_Folder/lip4.jpg",
+      "name": "Lipstick Shade 4",
+      "price": "$18"
+    },
+    {
+      "image": "/Image_Folder/lip5.jpg",
+      "name": "Lipstick Shade 5",
+      "price": "$20"
+    },
+    {
+      "image": "/Image_Folder/lip6.jpg",
+      "name": "Lipstick Shade 6",
+      "price": "$22"
+    },
+    {
+      "image": "/Image_Folder/lip7.jpg",
+      "name": "Lipstick Shade 7",
+      "price": "$25"
+    },
+    {
+      "image": "/Image_Folder/lip8.jpg",
+      "name": "Lipstick Shade 8",
+      "price": "$30"
+    }
+  ],
+  "imageList": [
+    {
+      "image1": "/Image_Folder/images1.webp"
+    },
+    {
+      "image1": "/Image_Folder/images2.jpeg"
+    },
+    {
+      "image1": "/Image_Folder/image3.jpg"
+    },
+    {
+      "image1": "/Image_Folder/image4.jpg"
+    }
+  ],
+"eyeslist": [
+  {
+    "eye1": "/Image_Folder/eye1.jpg",
+    "name": "Velvet Eye Shadow",
+    "price": 10
+  },
+  {
+    "eye1": "/Image_Folder/eye2.jpg",
+    "name": "Dramatic Mascara",
+    "price": 12
+  },
+  {
+    "eye1": "/Image_Folder/eye3.jpg",
+    "name": "Liquid Eyeliner",
+    "price": 15
+  },
+  {
+    "eye1": "/Image_Folder/eye4.jpg",
+    "name": "Satin Finish Eyeshadow",
+    "price": 18
+  },
+  {
+    "eye1": "/Image_Folder/eye5.jpg",
+    "name": "Waterproof Brow Gel",
+    "price": 20
+  },
+  {
+    "eye1": "/Image_Folder/eye6.jpg",
+    "name": "Glitter Eye Shadow",
+    "price": 22
+  },
+  {
+    "eye1": "/Image_Folder/eye1.jpg",
+    "name": "Velvet Eye Shadow",
+    "price": 10
+  },
+  {
+    "eye1": "/Image_Folder/eye2.jpg",
+    "name": "Dramatic Mascara",
+    "price": 12
+  },
+  {
+    "eye1": "/Image_Folder/eye3.jpg",
+    "name": "Liquid Eyeliner",
+    "price": 15
+  },
+  {
+    "eye1": "/Image_Folder/eye4.jpg",
+    "name": "Satin Finish Eyeshadow",
+    "price": 18
+  },
+  {
+    "eye1": "/Image_Folder/eye5.jpg",
+    "name": "Waterproof Brow Gel",
+    "price": 20
+  },
+  {
+    "eye1": "/Image_Folder/eye6.jpg",
+    "name": "Glitter Eye Shadow",
+    "price": 22
+  }
+]
+
+
+
+}

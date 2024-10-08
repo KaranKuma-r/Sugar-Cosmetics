@@ -1,0 +1,308 @@
+/* General body styling */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top:145px;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+}
+
+/* Navigation Links */
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration-color: rgb(116, 2, 101);
+}
+
+/* Dropdown Navigation */
+.Nav_Down ul {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+}
+
+.Nav_Down ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background: rgb(240, 239, 239);
+    padding: 10px;
+    list-style: none;
+    min-width: 150px;
+}
+
+.Nav_Down ul li {
+    position: relative;
+}
+
+.Nav_Down ul li:hover ul {
+    display: block;
+}
+
+.Nav_Down ul li ul li {
+    padding: 8px 12px;
+}
+
+.Nav_Down ul li ul li a {
+    color: rgb(13, 12, 12);
+}
+
+.Nav_Down ul li ul li a:hover {
+    color: #ff4081;
+}
+
+/* Home Div */
+.homediv {
+    width: 100%;
+    position: relative;
+    /* Ensure buttons are positioned relative to this */
+    z-index: 1;
+    /* Lower than navbar */
+}
+
+.image_main_div {
+    width: 100%;
+    height: 500px;
+    /* margin-top: 149px; This margin might need adjustment if the navbar covers the image */
+}
+
+.left_button,
+.right_button {
+    position: absolute;
+    top: 15%;
+    background-color: rgb(50, 36, 27);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.left_button {
+    left: 30px;
+}
+
+.right_button {
+    right: 30px;
+}
+
+
+.center_div img {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+
+}
+
+/* Bestsellers Text */
+.bestsellers {
+    position: absolute;
+    top: 630px;
+    left: 45%;
+    font-size: 30px;
+    color: aliceblue;
+    z-index: 5;
+
+}
+
+.mid_div {
+    width: 100%;
+    max-width: 75%;
+    /* border: 10px solid; */
+    position: absolute;
+    top: 700px;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    /* Space between product cards */
+    padding: 20px;
+    /* Add padding around the container */
+    scroll-behavior: smooth;
+}
+
+.mid_div::-webkit-scrollbar {
+    display: none;
+}
+
+.mid_div_left_button,
+.mid_div_right_button {
+    position: absolute;
+    top: 72%;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.mid_div_left_button>button,
+.mid_div_right_button>button {
+    background-color: rgb(30, 29, 29);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    
+
+}
+
+.mid_div_left_button {
+    left: 5%;
+
+}
+
+.mid_div_right_button {
+    right: 5%;
+}
+
+.product_slider>div>img {
+    height: 200px;
+    width: 325px;
+}
+
+
+/* Hide default scrollbar for a cleaner look */
+
+
+/* Product card styling */
+.product_slider {
+    /* text-align: center; */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+}
+
+/* Add to cart button styling */
+.product_slider button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.map_button{
+   background-color: black;
+   margin-left: 2%;
+   font-size: 20px;
+}
+.map_items{
+    margin-left: 10%;
+    background-color: black;
+    font-size: 20px;
+    width:60%
+}
+.product_slider>div{
+    text-align: center;
+}
+/* <-------FOOTER CSS ------> */
+.Footermain_Firstdiv {
+    background-color: rgb(241, 241, 240);
+    text-align: center;
+    height: 400px;
+    margin-top: 150px;
+    padding-top: 5px;
+}
+
+.Footermain_Firstdiv>p {
+    font-size: 30px;
+}
+
+.footerSecond_div {
+    background-color: black;
+    color: white;
+
+}
+
+.icon_div {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_div>.icon {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px red;
+}
+
+.icon_div>p:hover {
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+}
+
+.store_div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.store_div>.store {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.store_div>.store:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.last_div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+hr {
+    margin: 0px 40px 0px 40px;
+}
+.parent {
+    display: flex;
+    width: 100%; /* Make sure the parent div takes full width */
+  }
+  
+  .child1 {
+    flex:0 0 30%; /* 70% width */
+
+    
+  }
+  
+  .otpInput{
+    width:40px;
+    height:40px;
+    margin:5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
