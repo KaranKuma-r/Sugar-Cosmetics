@@ -1,7 +1,7 @@
 {
   "productData": [
     {
-      "image": "../Image_Folder/lip1.jpg",
+      "image": "./Image_Folder/lip1.jpg",
       "name": "Lipstick Shade 1",
       "price": "$10"
     },
