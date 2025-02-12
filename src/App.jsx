@@ -9,12 +9,7 @@ import { CartPage } from './cpmponents/cartpage'
 import { useState } from 'react'
 import { PhoneOtpForm } from './login'
 
-
-
-
-
-
-
+// Function
 export function App() {
     const [cart, setCart] = useState([]); // Cart state
 
